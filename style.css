@@ -1,0 +1,54 @@
+
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Encode Sans SC', sans-serif;
+}
+.calculator{
+    background-color: #2C2E43;
+    width:230px;
+    margin:0 auto;
+    padding: 25px 25px;
+    border:10px solid #FF7600;
+    border-radius:10px;
+}
+.container{
+    text-align:center;
+    margin-top:50px;
+
+}
+h1{
+    margin:15px auto;
+}
+table{
+    margin:auto;
+}
+button{
+    width:40px;
+    height:40px;
+    padding:5px;
+    text-align: center;
+    margin:6px;
+    font-size: 18px;
+    box-shadow: 1px 1px 3px #e5e5e9;
+    border-radius:50px;
+    outline: none;
+    border:none;
+}
+input{
+    width:200px;
+    font-size: 22px;
+    padding:8px;
+    box-shadow: 5px 5px 5px #2C2E43;
+    outline: none;
+    border-radius:50px;
+    border:none;
+}
+button:hover{
+    box-shadow: 3px 3px 6px gray;
+    border:1px solid black;
+    cursor:pointer;
+}

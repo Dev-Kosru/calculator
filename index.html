@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100;400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculator</h1>
+        <div class="calculator">
+            <input id="input-box" type="text" name ="screen">
+            <table>
+                <tr>
+                    <td><button value="" onclick="allClear(this.value)">AC</button></td>
+                    <td><button value=""onclick="slicing(this.value) ">C</button></td>
+                    <td><button value="√" onclick="roots(this.value)">√</button></td>
+                    <td><button value="%" onclick="calculate(this.value)" >%</button></td>
+                    
+                </tr>
+             <tr>
+                 <td><button value="7" onclick="calculate(this.value)">7</button></td>
+                 <td><button value="8"onclick="calculate(this.value)">8</button></td>
+                 <td><button value="9"onclick="calculate(this.value)">9</button></td>
+                 <td><button value="*"onclick="calculate(this.value)">x</button></td>
+                 
+             </tr>
+             <tr>
+                <td><button value="4"onclick="calculate(this.value)">4</button></td>
+                <td><button value="5"onclick="calculate(this.value)">5</button></td>
+                <td><button value="6"onclick="calculate(this.value)">6</button></td>
+                <td><button value="-"onclick="calculate(this.value)">-</button></td>
+             </tr>
+             <tr>
+                 <td><button value="1"onclick="calculate(this.value)">1</button></td>
+                 <td><button value="2"onclick="calculate(this.value)">2</button></td>
+                 <td><button value="3"onclick="calculate(this.value)">3</button></td>
+                 <td><button value="/"onclick="calculate(this.value)">/</button></td>
+             </tr>
+             <tr>
+                <td><button value="0"onclick="calculate(this.value)">0</button></td>
+                <td><button value="."onclick="calculate(this.value)">.</button></td>
+                <td><button value="+"onclick="calculate(this.value)">+</button></td>
+                <td><button value="="onclick="calculation(this.value)">=</button></td>
+             </tr>
+            </table>
+
+        </div>
+    </div>
+    
+
+   <script src="calculator.js"></script>
+</body>
+</html>
